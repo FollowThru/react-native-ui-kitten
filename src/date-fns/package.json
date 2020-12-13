@@ -1,13 +1,13 @@
 {
-  "name": "@ui-kitten/date-fns",
+  "name": "@followthru/ui-kitten-date-fns",
   "description": "date-fns services for UI Kitten",
-  "version": "5.0.0",
+  "version": "5.0.2",
   "author": "akveo <contact@akveo.com>",
   "license": "MIT",
   "homepage": "https://github.com/akveo/react-native-ui-kitten#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/akveo/react-native-ui-kitten.git"
+  "repository": "git://github.com/FollowThru/react-native-ui-kitten.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "bugs": {
     "url": "https://github.com/akveo/react-native-ui-kitten/issues"
@@ -17,9 +17,6 @@
     "ui-kitten",
     "date-fns"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "devDependencies": {
     "date-fns": "^1.30.1"
   },

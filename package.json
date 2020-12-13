@@ -1,13 +1,16 @@
 {
-  "name": "ui-kitten",
-  "version": "5.0.0",
-  "private": true,
+  "name": "@followthru/ui-kitten",
+  "version": "5.0.2",
   "license": "MIT",
+  "private": "true",
   "author": "akveo <contact@akveo.com>",
   "homepage": "https://github.com/akveo/react-native-ui-kitten#readme",
-  "repository": "git+https://github.com/akveo/react-native-ui-kitten.git",
   "bugs": {
     "url": "https://github.com/akveo/react-native-ui-kitten/issues"
+  },
+  "repository": "git://github.com/FollowThru/react-native-ui-kitten.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "workspaces": {
     "packages": [

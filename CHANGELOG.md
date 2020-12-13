@@ -1,3 +1,33 @@
+## <small>5.0.2 (2020-12-13)</small>
+
+* chore(docs): add akveo services banner ([ce3b69e](https://github.com/FollowThru/react-native-ui-kitten/commit/ce3b69e))
+* chore(docs): fix banner alignment ([e2f8060](https://github.com/FollowThru/react-native-ui-kitten/commit/e2f8060))
+* chore(docs): replace hs links back with full ones ([cacd67c](https://github.com/FollowThru/react-native-ui-kitten/commit/cacd67c))
+* fix(docs): add scroll to right sidebar ([ea4a362](https://github.com/FollowThru/react-native-ui-kitten/commit/ea4a362))
+* fix(docs): mimic docs app structure to avoid 404 ([b46d53b](https://github.com/FollowThru/react-native-ui-kitten/commit/b46d53b))
+* feat(components): icon - add null as a valid animation ([f16d0fb](https://github.com/FollowThru/react-native-ui-kitten/commit/f16d0fb))
+* feat(docs): add dynamic meta tags and title for docs pages ([26a7b93](https://github.com/FollowThru/react-native-ui-kitten/commit/26a7b93))
+* docs: fix typos and navigation component usage examples ([82e072b](https://github.com/FollowThru/react-native-ui-kitten/commit/82e072b))
+* docs(readme): change mobile backend bundle links ([b6fa52b](https://github.com/FollowThru/react-native-ui-kitten/commit/b6fa52b))
+* docs(showcases): fix autocomplete simple usage example ([49996bd](https://github.com/FollowThru/react-native-ui-kitten/commit/49996bd))
+
+
+
+## <small>5.0.1 (2020-12-13)</small>
+
+* chore(docs): add akveo services banner ([ce3b69e](https://github.com/FollowThru/react-native-ui-kitten/commit/ce3b69e))
+* chore(docs): fix banner alignment ([e2f8060](https://github.com/FollowThru/react-native-ui-kitten/commit/e2f8060))
+* chore(docs): replace hs links back with full ones ([cacd67c](https://github.com/FollowThru/react-native-ui-kitten/commit/cacd67c))
+* fix(docs): add scroll to right sidebar ([ea4a362](https://github.com/FollowThru/react-native-ui-kitten/commit/ea4a362))
+* fix(docs): mimic docs app structure to avoid 404 ([b46d53b](https://github.com/FollowThru/react-native-ui-kitten/commit/b46d53b))
+* feat(components): icon - add null as a valid animation ([f16d0fb](https://github.com/FollowThru/react-native-ui-kitten/commit/f16d0fb))
+* feat(docs): add dynamic meta tags and title for docs pages ([26a7b93](https://github.com/FollowThru/react-native-ui-kitten/commit/26a7b93))
+* docs: fix typos and navigation component usage examples ([82e072b](https://github.com/FollowThru/react-native-ui-kitten/commit/82e072b))
+* docs(readme): change mobile backend bundle links ([b6fa52b](https://github.com/FollowThru/react-native-ui-kitten/commit/b6fa52b))
+* docs(showcases): fix autocomplete simple usage example ([49996bd](https://github.com/FollowThru/react-native-ui-kitten/commit/49996bd))
+
+
+
 ## 5.0.0 (2020-05-12)
 
 ### :star: Highlights
