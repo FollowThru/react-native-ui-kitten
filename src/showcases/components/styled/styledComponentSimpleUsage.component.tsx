@@ -1,6 +1,6 @@
 import React from 'react';
 import { TouchableOpacity } from 'react-native';
-import { styled } from '@ui-kitten/components';
+import { styled } from '@followthru/ui-kitten-components';
 
 @styled('StyledComponent')
 class StyledComponent extends React.Component {

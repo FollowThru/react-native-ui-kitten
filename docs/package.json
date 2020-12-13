@@ -1,5 +1,5 @@
 {
-  "name": "@ui-kitten/docs",
+  "name": "@followthru/ui-kitten-docs",
   "version": "1.0.0",
   "private": true,
   "workspaces": {

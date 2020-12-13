@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import { Datepicker, Icon, Layout } from '@ui-kitten/components';
+import { Datepicker, Icon, Layout } from '@followthru/ui-kitten-components';
 
 const CalendarIcon = (props) => (
   <Icon {...props} name='calendar'/>

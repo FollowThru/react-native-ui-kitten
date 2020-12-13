@@ -1,5 +1,5 @@
 import React from 'react';
-import { DrawerItem, Icon } from '@ui-kitten/components';
+import { DrawerItem, Icon } from '@followthru/ui-kitten-components';
 
 const StarIcon = (props) => (
   <Icon {...props} name='star'/>

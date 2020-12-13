@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { Calendar, Text } from '@ui-kitten/components';
+import { Calendar, Text } from '@followthru/ui-kitten-components';
 
 const DayCell = ({ date }, style) => (
   <View

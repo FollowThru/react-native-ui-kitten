@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Icon, List, ListItem } from '@ui-kitten/components';
+import { Button, Icon, List, ListItem } from '@followthru/ui-kitten-components';
 import { StyleSheet } from 'react-native';
 
 const data = new Array(8).fill({

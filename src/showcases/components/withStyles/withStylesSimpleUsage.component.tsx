@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import { Text, withStyles } from '@ui-kitten/components';
+import { Text, withStyles } from '@followthru/ui-kitten-components';
 
 const ThemedComponent = ({ eva }) => (
   <View style={eva.style.container}>

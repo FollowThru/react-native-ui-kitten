@@ -7,7 +7,7 @@
 import {
   DateService,
   TranslationWidth,
-} from '@ui-kitten/components';
+} from '@followthru/ui-kitten-components';
 // @ts-ignore
 import _moment, {
   default as _rollupMoment,

@@ -1,6 +1,6 @@
 import React from 'react';
 import { ImageBackground, StyleSheet } from 'react-native';
-import { Divider, Drawer, DrawerItem, Icon } from '@ui-kitten/components';
+import { Divider, Drawer, DrawerItem, Icon } from '@followthru/ui-kitten-components';
 
 const PersonIcon = (props) => (
   <Icon {...props} name='person-outline'/>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import { Button, Divider, Icon, List, ListItem, TopNavigation, TopNavigationAction } from '@ui-kitten/components';
+import { Button, Divider, Icon, List, ListItem, TopNavigation, TopNavigationAction } from '@followthru/ui-kitten-components';
 
 const BackIcon = (props) => (
   <Icon {...props} name='arrow-back'/>

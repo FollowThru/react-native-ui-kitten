@@ -79,7 +79,7 @@ export type RadioElement = React.ReactElement<RadioProps>;
  * @overview-example RadioStyling
  * Radio and it's inner views can be styled by passing them as function components.
  * ```
- * import { Radio, Text } from '@ui-kitten/components';
+ * import { Radio, Text } from '@followthru/ui-kitten-components';
  *
  * <Radio>
  *   {evaProps => <Text {...evaProps}>Place your Text</Text>}

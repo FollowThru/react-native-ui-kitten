@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { Button, Icon, Layout, Spinner } from '@ui-kitten/components';
+import { Button, Icon, Layout, Spinner } from '@followthru/ui-kitten-components';
 
 const StarIcon = (props) => (
   <Icon {...props} name='star'/>

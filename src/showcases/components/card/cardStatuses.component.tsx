@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import { Card, Layout, Text } from '@ui-kitten/components';
+import { Card, Layout, Text } from '@followthru/ui-kitten-components';
 
 export const CardStatusesShowcase = () => (
   <Layout style={styles.container} level='1'>

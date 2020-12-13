@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { CheckBox, Layout } from '@ui-kitten/components';
+import { CheckBox, Layout } from '@followthru/ui-kitten-components';
 
 const useCheckboxState = (initialCheck = false) => {
   const [checked, setChecked] = React.useState(initialCheck);

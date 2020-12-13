@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@eva-design/eva": "2.0.0",
-    "@ui-kitten/components": "5.0.0",
-    "@ui-kitten/eva-icons": "5.0.0",
+    "@followthru/ui-kitten-components": "5.0.0",
+    "@followthru/ui-kitten-eva-icons": "5.0.0",
     "react": "16.11.0",
     "react-native": "0.62.2",
     "react-native-svg": "^12.1.0"
@@ -21,7 +21,7 @@
     "@babel/core": "^7.6.2",
     "@babel/runtime": "^7.6.2",
     "@react-native-community/eslint-config": "^1.0.0",
-    "@ui-kitten/metro-config": "5.0.0",
+    "@followthru/ui-kitten-metro-config": "5.0.0",
     "babel-jest": "^24.9.0",
     "eslint": "^6.5.1",
     "jest": "^24.9.0",

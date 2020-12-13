@@ -1,6 +1,6 @@
 import React from 'react';
 import { dark, light } from '@eva-design/eva';
-import { Card, Layout, Text, ThemeProvider } from '@ui-kitten/components';
+import { Card, Layout, Text, ThemeProvider } from '@followthru/ui-kitten-components';
 
 export const ThemeProviderSimpleUsageShowcase = () => (
   <React.Fragment>

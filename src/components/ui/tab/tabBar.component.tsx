@@ -66,7 +66,7 @@ export type TabBarElement = React.ReactElement<TabBarProps>;
  * import React from 'react';
  * import { NavigationContainer } from '@react-navigation/native';
  * import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
- * import { TabBar, Tab, Layout, Text } from '@ui-kitten/components';
+ * import { TabBar, Tab, Layout, Text } from '@followthru/ui-kitten-components';
  *
  * const { Navigator, Screen } = createBottomTabNavigator();
  *
@@ -111,7 +111,7 @@ export type TabBarElement = React.ReactElement<TabBarProps>;
  * @overview-example TabStyling
  * Tab and it's inner views can be styled by passing them as function components.
  * ```
- * import { Tab, Text } from '@ui-kitten/components';
+ * import { Tab, Text } from '@followthru/ui-kitten-components';
  *
  * <Tab
  *   title={evaProps => <Text {...evaProps}>USERS</Text>}

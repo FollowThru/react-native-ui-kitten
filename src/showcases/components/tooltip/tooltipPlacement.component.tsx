@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { Button, IndexPath, Layout, Select, SelectItem, Tooltip } from '@ui-kitten/components';
+import { Button, IndexPath, Layout, Select, SelectItem, Tooltip } from '@followthru/ui-kitten-components';
 
 const placements = [
   'top',

@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { Layout, Text } from '@ui-kitten/components';
+import { Layout, Text } from '@followthru/ui-kitten-components';
 
 export const TextStatusesShowcase = () => (
   <Layout style={styles.container} level='1'>

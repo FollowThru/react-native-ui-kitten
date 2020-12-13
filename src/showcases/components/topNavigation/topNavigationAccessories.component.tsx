@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, Layout, MenuItem, OverflowMenu, TopNavigation, TopNavigationAction } from '@ui-kitten/components';
+import { Icon, Layout, MenuItem, OverflowMenu, TopNavigation, TopNavigationAction } from '@followthru/ui-kitten-components';
 import { StyleSheet } from 'react-native';
 
 const BackIcon = (props) => (

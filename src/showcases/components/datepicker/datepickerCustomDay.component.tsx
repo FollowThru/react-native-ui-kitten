@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { Datepicker, Layout, Text } from '@ui-kitten/components';
+import { Datepicker, Layout, Text } from '@followthru/ui-kitten-components';
 
 const DayCell = ({ date }, style) => (
   <View style={[styles.dayContainer, style.container]}>

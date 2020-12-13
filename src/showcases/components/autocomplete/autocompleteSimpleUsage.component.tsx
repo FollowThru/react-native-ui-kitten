@@ -1,5 +1,5 @@
 import React from 'react';
-import { Autocomplete, AutocompleteItem } from '@ui-kitten/components';
+import { Autocomplete, AutocompleteItem } from '@followthru/ui-kitten-components';
 
 const movies = [
   { title: 'Star Wars' },

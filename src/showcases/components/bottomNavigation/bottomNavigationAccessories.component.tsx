@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import { BottomNavigation, BottomNavigationTab, Icon } from '@ui-kitten/components';
+import { BottomNavigation, BottomNavigationTab, Icon } from '@followthru/ui-kitten-components';
 
 const PersonIcon = (props) => (
   <Icon {...props} name='person-outline'/>

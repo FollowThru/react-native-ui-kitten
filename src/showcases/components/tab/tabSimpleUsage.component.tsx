@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, Tab } from '@ui-kitten/components';
+import { Icon, Tab } from '@followthru/ui-kitten-components';
 
 const PersonIcon = (props) => (
   <Icon {...props} name='person-outline'/>

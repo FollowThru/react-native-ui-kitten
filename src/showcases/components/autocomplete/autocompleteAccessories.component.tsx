@@ -1,6 +1,6 @@
 import React from 'react';
 import { TouchableWithoutFeedback } from 'react-native';
-import { Autocomplete, AutocompleteItem, Icon } from '@ui-kitten/components';
+import { Autocomplete, AutocompleteItem, Icon } from '@followthru/ui-kitten-components';
 
 const movies = [
   { title: 'Star Wars' },

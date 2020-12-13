@@ -1,6 +1,6 @@
 import React from 'react';
 import { TouchableWithoutFeedback } from 'react-native';
-import { Icon, Input } from '@ui-kitten/components';
+import { Icon, Input } from '@followthru/ui-kitten-components';
 
 const AlertIcon = (props) => (
   <Icon {...props} name='alert-circle-outline'/>

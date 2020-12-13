@@ -199,7 +199,7 @@ const CHEVRON_ANIM_DURATION: number = 200;
  * @overview-example SelectStyling
  * Select and it's inner views can be styled by passing them as function components.
  * ```
- * import { Select, SelectItem, Text } from '@ui-kitten/components';
+ * import { Select, SelectItem, Text } from '@followthru/ui-kitten-components';
  *
  * <Select
  *   label={evaProps => <Text {...evaProps}>Label</Text>}

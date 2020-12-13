@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { Calendar, Layout, Text } from '@ui-kitten/components';
+import { Calendar, Layout, Text } from '@followthru/ui-kitten-components';
 
 const useCalendarState = (initialState = null) => {
   const [date, setDate] = React.useState(initialState);

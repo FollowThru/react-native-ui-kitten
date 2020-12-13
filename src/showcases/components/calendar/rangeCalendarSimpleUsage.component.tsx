@@ -1,5 +1,5 @@
 import React from 'react';
-import { RangeCalendar } from '@ui-kitten/components';
+import { RangeCalendar } from '@followthru/ui-kitten-components';
 
 export const RangeCalendarSimpleUsageShowcase = () => {
 

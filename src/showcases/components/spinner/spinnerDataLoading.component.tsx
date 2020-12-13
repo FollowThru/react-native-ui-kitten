@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { List, ListItem, Spinner } from '@ui-kitten/components';
+import { List, ListItem, Spinner } from '@followthru/ui-kitten-components';
 
 const DATA = new Array(8).fill({
   title: 'Title for Item',

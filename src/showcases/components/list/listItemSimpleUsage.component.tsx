@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, Button, ListItem } from '@ui-kitten/components';
+import { Avatar, Button, ListItem } from '@followthru/ui-kitten-components';
 
 const InstallButton = (props) => (
   <Button size='tiny'>

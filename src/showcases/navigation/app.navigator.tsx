@@ -8,7 +8,7 @@ import {
   Text,
   Button,
   Icon,
-} from '@ui-kitten/components';
+} from '@followthru/ui-kitten-components';
 
 const HeartIcon = (props: ImageProps): React.ReactElement<ImageProps> => (
   <Icon {...props} name='heart'/>

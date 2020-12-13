@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, TopNavigationAction } from '@ui-kitten/components';
+import { Icon, TopNavigationAction } from '@followthru/ui-kitten-components';
 
 const BackIcon = (props) => (
   <Icon {...props} name='arrow-back'/>

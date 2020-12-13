@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { Layout, Text, useTheme } from '@ui-kitten/components';
+import { Layout, Text, useTheme } from '@followthru/ui-kitten-components';
 
 export const UseThemeSimpleUsageShowcase = () => {
   const theme = useTheme();

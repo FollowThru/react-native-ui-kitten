@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import { Button, Icon, Layout } from '@ui-kitten/components';
+import { Button, Icon, Layout } from '@followthru/ui-kitten-components';
 
 export const IconThemingShowcase = () => {
 

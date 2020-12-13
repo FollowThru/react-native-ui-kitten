@@ -30,7 +30,7 @@ const customMappingWatchOptions = {
  * @example Usage
  *
  * ```metro.config.js
- * const MetroConfig = require('@ui-kitten/metro-config');
+ * const MetroConfig = require('@followthru/ui-kitten-metro-config');
  *
  * const evaConfig = {
  *   evaPackage: '@eva-design/eva',              // Required.

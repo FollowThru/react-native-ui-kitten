@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, Menu, MenuGroup, MenuItem } from '@ui-kitten/components';
+import { Icon, Menu, MenuGroup, MenuItem } from '@followthru/ui-kitten-components';
 
 const SmartphoneIcon = (props) => (
   <Icon {...props} name='smartphone-outline'/>

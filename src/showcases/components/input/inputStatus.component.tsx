@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { Input, Layout } from '@ui-kitten/components';
+import { Input, Layout } from '@followthru/ui-kitten-components';
 
 const useInputState = (initialValue = '') => {
   const [value, setValue] = React.useState(initialValue);
