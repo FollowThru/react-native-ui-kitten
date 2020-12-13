@@ -8,10 +8,12 @@ import React from 'react';
 import {
   ListRenderItemInfo,
   NativeSyntheticEvent,
+  StyleProp,
   StyleSheet,
   TextInputFocusEventData,
   TextInputSubmitEditingEventData,
   View,
+  ViewStyle,
 } from 'react-native';
 import { ChildrenWithProps } from '../../devsupport';
 import {
@@ -34,6 +36,8 @@ export interface AutocompleteProps extends InputProps {
   children?: ChildrenWithProps<AutocompleteItemProps>;
   onSelect?: (index: number) => void;
   placement?: string;
+  popoverStyle?: any;
+  containerStyle?: StyleProp<ViewStyle>;
 }
 
 export type AutocompleteElement = React.ReactElement<AutocompleteProps>;
@@ -185,9 +189,9 @@ export class Autocomplete extends React.Component<AutocompleteProps, State> {
     return React.cloneElement(info.item, { onPress: () => this.onItemPress(info.index) });
   };
 
-  private renderInputElement = (props: InputProps): InputElement => {
+  private renderInputElement = (props: InputProps, containerStyle?: StyleProp<ViewStyle>): InputElement => {
     return (
-      <View>
+      <View style={containerStyle}>
         <Input
           {...props}
           ref={this.inputRef}
@@ -201,15 +205,22 @@ export class Autocomplete extends React.Component<AutocompleteProps, State> {
   public render(): PopoverElement {
     const { placement, children, ...inputProps } = this.props;
 
+    let popoverStyle = styles.popover;
+
+    if (this.props.popoverStyle) {
+      popoverStyle = StyleSheet.flatten([styles.popover, this.props.popoverStyle]);
+    }
+
     return (
       <Popover
         ref={this.popoverRef}
-        style={styles.popover}
+        style={popoverStyle}
         placement={placement}
         visible={this.state.listVisible}
         fullWidth={true}
-        anchor={() => this.renderInputElement(inputProps)}
-        onBackdropPress={this.onBackdropPress}>
+        anchor={() => this.renderInputElement(inputProps, this.props.containerStyle)}
+        onBackdropPress={this.onBackdropPress}
+        >
         <List
           style={styles.list}
           data={this.data}
